@@ -23,8 +23,6 @@ class NetRequestExampleController: BaseViewController,NetAPIManagerCallBackDataD
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
         let btn = UIButton.init(frame: CGRect.init(x: 100, y: 100, width: 100, height: 100))
         btn.setTitle("请求数据", for: UIControlState.normal)
         btn.setTitleColor(UIColor.red, for: UIControlState.normal)
@@ -36,7 +34,6 @@ class NetRequestExampleController: BaseViewController,NetAPIManagerCallBackDataD
     func loadData()  {
         
          MBHUD.showHUDAddedTo(view: self.view, animated: true)
-        
         
          self.mainPageManager.loadData()
     }

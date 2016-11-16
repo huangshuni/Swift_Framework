@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A42890E1DD9A6AA00F19EC3 /* SNPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42890B1DD9A6AA00F19EC3 /* SNPageView.swift */; };
+		2A42890F1DD9A6AA00F19EC3 /* SNSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42890C1DD9A6AA00F19EC3 /* SNSegment.swift */; };
+		2A4289101DD9A6AA00F19EC3 /* SNTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42890D1DD9A6AA00F19EC3 /* SNTableView.swift */; };
+		2A4289121DD9A88D00F19EC3 /* SNSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4289111DD9A88D00F19EC3 /* SNSegmentController.swift */; };
 		2AA59B781DD572AF00188598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA59B771DD572AF00188598 /* AppDelegate.swift */; };
 		2AA59B7A1DD572AF00188598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA59B791DD572AF00188598 /* ViewController.swift */; };
 		2AA59B7D1DD572AF00188598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA59B7B1DD572AF00188598 /* Main.storyboard */; };
@@ -48,6 +52,10 @@
 
 /* Begin PBXFileReference section */
 		0D374C4DD54FB7325E8A4ED5 /* Pods-SN_SWIFT_Framwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SN_SWIFT_Framwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SN_SWIFT_Framwork/Pods-SN_SWIFT_Framwork.release.xcconfig"; sourceTree = "<group>"; };
+		2A42890B1DD9A6AA00F19EC3 /* SNPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNPageView.swift; sourceTree = "<group>"; };
+		2A42890C1DD9A6AA00F19EC3 /* SNSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSegment.swift; sourceTree = "<group>"; };
+		2A42890D1DD9A6AA00F19EC3 /* SNTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNTableView.swift; sourceTree = "<group>"; };
+		2A4289111DD9A88D00F19EC3 /* SNSegmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSegmentController.swift; sourceTree = "<group>"; };
 		2AA59B741DD572AE00188598 /* SN_SWIFT_Framwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SN_SWIFT_Framwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA59B771DD572AF00188598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA59B791DD572AF00188598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +121,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2A4289071DD9A61600F19EC3 /* SNSegment */ = {
+			isa = PBXGroup;
+			children = (
+				2A42890B1DD9A6AA00F19EC3 /* SNPageView.swift */,
+				2A42890C1DD9A6AA00F19EC3 /* SNSegment.swift */,
+				2A42890D1DD9A6AA00F19EC3 /* SNTableView.swift */,
+			);
+			path = SNSegment;
+			sourceTree = "<group>";
+		};
+		2A4289081DD9A65F00F19EC3 /* SNSegmentExample */ = {
+			isa = PBXGroup;
+			children = (
+				2A4289111DD9A88D00F19EC3 /* SNSegmentController.swift */,
+			);
+			path = SNSegmentExample;
+			sourceTree = "<group>";
+		};
 		2AA59B6B1DD572AE00188598 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +199,7 @@
 		2AA59BA51DD572E000188598 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
+				2A4289071DD9A61600F19EC3 /* SNSegment */,
 				2AA59BA61DD572E000188598 /* HeaderFile */,
 				2AA59BA81DD572E000188598 /* MBProgressHUD */,
 				2AA59BAA1DD572E000188598 /* Net */,
@@ -236,6 +263,7 @@
 		2AA59BBE1DD5769F00188598 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2A4289081DD9A65F00F19EC3 /* SNSegmentExample */,
 				2AA59BC41DD5774000188598 /* NetRequestExample */,
 				2AA59BBF1DD576C900188598 /* Base */,
 			);
@@ -462,8 +490,11 @@
 				2AA59BB11DD572E000188598 /* NetHTTPSessionManager.swift in Sources */,
 				2AA59BC11DD576DB00188598 /* BaseViewController.swift in Sources */,
 				2AA59BC61DD577B200188598 /* RequestManager.swift in Sources */,
+				2A4289101DD9A6AA00F19EC3 /* SNTableView.swift in Sources */,
+				2A42890E1DD9A6AA00F19EC3 /* SNPageView.swift in Sources */,
 				2AA59BB21DD572E000188598 /* NetworkingBaseManager.swift in Sources */,
 				2AA59B7A1DD572AF00188598 /* ViewController.swift in Sources */,
+				2A4289121DD9A88D00F19EC3 /* SNSegmentController.swift in Sources */,
 				2AA59BCA1DD59F3100188598 /* NetRequestExampleController.swift in Sources */,
 				2AA59BC81DD577C600188598 /* RequestReformer.swift in Sources */,
 				2AA59BBA1DD573E500188598 /* MBProgressHUD.m in Sources */,
@@ -472,6 +503,7 @@
 				2AA59BB31DD572E000188598 /* NetworkingURLResponse.swift in Sources */,
 				2AA59B781DD572AF00188598 /* AppDelegate.swift in Sources */,
 				2AA59BB41DD572E000188598 /* NetworkReachability.swift in Sources */,
+				2A42890F1DD9A6AA00F19EC3 /* SNSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return innerTableView
     }()
     
-    let itemArr = NSArray.init(objects: "网络框架")
+    let itemArr = NSArray.init(objects: "网络框架","segment")
     
 
     override func viewDidLoad() {
@@ -43,6 +43,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             let vc : NetRequestExampleController = NetRequestExampleController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 1{
+            let vc : SNSegmentController = SNSegmentController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
